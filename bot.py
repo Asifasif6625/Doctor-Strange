@@ -18,7 +18,6 @@ from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
 from Script import script 
 from datetime import date, datetime 
-from aiohttp import web
 from plugins import web_server
 
 class Bot(Client):
